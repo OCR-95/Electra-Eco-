@@ -4,6 +4,9 @@ import { SafeAreaView, Text, View, ScrollView, TextInput, Button, Alert } from '
 import { styles } from '../styles/globalStyles';
 import { useState, useEffect, useContext } from 'react';
 import { AuthContext } from '../context/AuthContext';
+import { CENACE_BASE_URL } from "../config/constants"; // ajusta la ruta según tu estructura
+import { API_URL } from "../config/constants"; // ajusta la ruta según tu estructura
+
 
 
 /* const movimientos = [
@@ -41,8 +44,9 @@ export default function MovimientosScreen() {
   const fetchMovimientos = async () => {
     console.log("Carga la tabla de base . . . ");
     try {
-      const response = await fetch('http://192.168.1.22:8080/eco/index.php', {
+      //const response = await fetch('http://192.168.1.22:8080/eco/index.php', {
       //const response = await fetch('http://192.168.100.3:8080/eco/index.php', {
+      const response = await fetch(`${API_URL}/eco/index.php`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -71,7 +75,8 @@ export default function MovimientosScreen() {
       const month = String(today.getMonth() + 1).padStart(2, '0');
       const day = String(today.getDate()).padStart(2, '0');
       const regionCode = user.region.replace(/\s+/g, '-');
-      const url = `https://ws01.cenace.gob.mx:8082/SWPEND/SIM/SIN/MDA/${regionCode}/${year}/${month}/${day}/${year}/${month}/${day}/JSON`;
+      //const url = `https://ws01.cenace.gob.mx:8082/SWPEND/SIM/SIN/MDA/${regionCode}/${year}/${month}/${day}/${year}/${month}/${day}/JSON`;
+      const url = `${CENACE_BASE_URL}/${regionCode}/${year}/${month}/${day}/${year}/${month}/${day}/JSON`;
       const response = await fetch(url);
       const data = await response.json();
       const valores = data.Resultados[0].Valores;
@@ -122,8 +127,9 @@ export default function MovimientosScreen() {
     //setLoading(true); Revisar si se cuenta con el spiner
     try {
 
-      const response = await fetch('http://192.168.1.22:8080/eco/index.php', {
+      //const response = await fetch('http://192.168.1.22:8080/eco/index.php', {
       //const response = await fetch('http://192.168.100.3:8080/eco/index.php', {
+      const response = await fetch(`${API_URL}/eco/index.php`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

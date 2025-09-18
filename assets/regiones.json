@@ -5,8 +5,8 @@
         "name": "La Estancia",
         "state": "MEXICO",
         "municipality": "ACAMBAY DE RUIZ CASTAÑEDA",
-        "latitude": 19.9558,
-        "longitude": -99.8447
+        "latitudee": 19.9558,
+        "longitudee": -99.8447
     },
     {
         "region": "VDM NORTE",
@@ -14,8 +14,8 @@
         "name": "Acolman",
         "state": "MEXICO",
         "municipality": "ACOLMAN",
-        "latitude": 19.6375,
-        "longitude": -98.9108
+        "latitudee": 19.6375,
+        "longitudee": -98.9108
     },
     {
         "region": "VDM NORTE",
@@ -23,8 +23,8 @@
         "name": "Sosa Texcoco",
         "state": "MEXICO",
         "municipality": "ACOLMAN",
-        "latitude": 19.6423,
-        "longitude": -98.9182
+        "latitudee": 19.6423,
+        "longitudee": -98.9182
     },
     {
         "region": "CENTRO SUR",
@@ -32,8 +32,8 @@
         "name": "Aculco",
         "state": "MEXICO",
         "municipality": "ACULCO",
-        "latitude": 20.0989,
-        "longitude": -99.8269
+        "latitudee": 20.0989,
+        "longitudee": -99.8269
     },
     {
         "region": "CENTRO SUR",
@@ -41,8 +41,8 @@
         "name": "Papelera el Nevado",
         "state": "MEXICO",
         "municipality": "ALMOLOYA DE JUAREZ",
-        "latitude": 19.3692,
-        "longitude": -99.7583
+        "latitudee": 19.3692,
+        "longitudee": -99.7583
     },
     {
         "region": "VDM SUR",
@@ -50,8 +50,8 @@
         "name": "Agua Viva",
         "state": "MEXICO",
         "municipality": "AMECAMECA",
-        "latitude": 19.1258,
-        "longitude": -98.7664
+        "latitudee": 19.1258,
+        "longitudee": -98.7664
     },
     {
         "region": "CENTRO ORIENTE",
@@ -59,8 +59,8 @@
         "name": "Aeropuerto Internacional Felipe Angeles Maniobras",
         "state": "MEXICO",
         "municipality": "ZUMPANGO",
-        "latitude": 19.7550,
-        "longitude": -99.0167
+        "latitudee": 19.7550,
+        "longitudee": -99.0167
     },
     {
         "region": "CENTRO SUR",
@@ -68,8 +68,8 @@
         "name": "San Mateo",
         "state": "MEXICO",
         "municipality": "ALMOLOYA DE JUAREZ",
-        "latitude": 19.3682,
-        "longitude": -99.7528
+        "latitudee": 19.3682,
+        "longitudee": -99.7528
     },
     {
         "region": "CENTRO SUR",
@@ -77,8 +77,8 @@
         "name": "Yebucibi",
         "state": "MEXICO",
         "municipality": "ALMOLOYA DE JUAREZ",
-        "latitude": 19.3547,
-        "longitude": -99.7683
+        "latitudee": 19.3547,
+        "longitudee": -99.7683
     },
     {
         "region": "VDM SUR",
@@ -86,8 +86,8 @@
         "name": "Paso de Cortes",
         "state": "MEXICO",
         "municipality": "AMECAMECA",
-        "latitude": 19.1325,
-        "longitude": -98.6428
+        "latitudee": 19.1325,
+        "longitudee": -98.6428
     },
     {
         "region": "CENTRO ORIENTE",
@@ -95,8 +95,8 @@
         "name": "Cementos Apaxco",
         "state": "MEXICO",
         "municipality": "APAXCO",
-        "latitude": 19.9750,
-        "longitude": -99.1719
+        "latitudee": 19.9750,
+        "longitudee": -99.1719
     },
     {
         "region": "VDM SUR",
@@ -104,8 +104,8 @@
         "name": "Atenco",
         "state": "MEXICO",
         "municipality": "ATENCO",
-        "latitude": 19.5517,
-        "longitude": -98.9186
+        "latitudee": 19.5517,
+        "longitudee": -98.9186
     },
     {
         "region": "VDM NORTE",
@@ -113,8 +113,8 @@
         "name": "Atizapan",
         "state": "MEXICO",
         "municipality": "ATIZAPAN DE ZARAGOZA",
-        "latitude": 19.5725,
-        "longitude": -99.2519
+        "latitudee": 19.5725,
+        "longitudee": -99.2519
     },
     {
         "region": "VDM NORTE",
@@ -122,8 +122,8 @@
         "name": "BBVA Centro Tecnologico America",
         "state": "MEXICO",
         "municipality": "ATIZAPAN DE ZARAGOZA",
-        "latitude": 19.5638,
-        "longitude": -99.2673
+        "latitudee": 19.5638,
+        "longitudee": -99.2673
     },
     {
         "region": "CENTRO SUR",
@@ -131,8 +131,8 @@
         "name": "Atlacomulco Industrial",
         "state": "MEXICO",
         "municipality": "ATLACOMULCO",
-        "latitude": 19.8014,
-        "longitude": -99.8736
+        "latitudee": 19.8014,
+        "longitudee": -99.8736
     },
     {
         "region": "VDM NORTE",
@@ -140,8 +140,8 @@
         "name": "Valle de Mexico Maniobras",
         "state": "MEXICO",
         "municipality": "AXAPUSCO",
-        "latitude": 19.7247,
-        "longitude": -98.7589
+        "latitudee": 19.7247,
+        "longitudee": -98.7589
     },
     {
         "region": "VDM SUR",
@@ -149,8 +149,8 @@
         "name": "Juchitepec",
         "state": "MEXICO",
         "municipality": "AYAPANGO",
-        "latitude": 19.1011,
-        "longitude": -98.8789
+        "latitudee": 19.1011,
+        "longitudee": -98.8789
     },
     {
         "region": "VDM SUR",
@@ -158,8 +158,8 @@
         "name": "Atenco",
         "state": "MEXICO",
         "municipality": "ATENCO",
-        "latitude": 19.5539,
-        "longitude": -98.9147
+        "latitudee": 19.5539,
+        "longitudee": -98.9147
     },
     {
         "region": "CENTRO SUR",
@@ -167,8 +167,8 @@
         "name": "Atlacomulco Mexico",
         "state": "MEXICO",
         "municipality": "ATLACOMULCO",
-        "latitude": 19.7992,
-        "longitude": -99.8750
+        "latitudee": 19.7992,
+        "longitudee": -99.8750
     },
     {
         "region": "VDM NORTE",
@@ -176,8 +176,8 @@
         "name": "Zapata Embases",
         "state": "MEXICO",
         "municipality": "CUAUTITLAN",
-        "latitude": 19.6703,
-        "longitude": -99.1814
+        "latitudee": 19.6703,
+        "longitudee": -99.1814
     },
     {
         "region": "VDM NORTE",
@@ -185,8 +185,8 @@
         "name": "Alpura",
         "state": "MEXICO",
         "municipality": "CUAUTITLAN IZCALLI",
-        "latitude": 19.7219,
-        "longitude": -99.2317
+        "latitudee": 19.7219,
+        "longitudee": -99.2317
     },
     {
         "region": "VDM NORTE",
@@ -194,8 +194,8 @@
         "name": "Becton Dickinson",
         "state": "MEXICO",
         "municipality": "CUAUTITLAN IZCALLI",
-        "latitude": 19.7186,
-        "longitude": -99.2258
+        "latitudee": 19.7186,
+        "longitudee": -99.2258
     },
     {
         "region": "VDM NORTE",
@@ -203,8 +203,8 @@
         "name": "Cementos Anahuac",
         "state": "MEXICO",
         "municipality": "CUAUTITLAN IZCALLI",
-        "latitude": 19.7153,
-        "longitude": -99.2192
+        "latitudee": 19.7153,
+        "longitudee": -99.2192
     },
     {
         "region": "VDM NORTE",
@@ -212,8 +212,8 @@
         "name": "Ford Motor Co",
         "state": "MEXICO",
         "municipality": "CUAUTITLAN IZCALLI",
-        "latitude": 19.7125,
-        "longitude": -99.2100
+        "latitudee": 19.7125,
+        "longitudee": -99.2100
     },
     {
         "region": "VDM NORTE",
@@ -221,8 +221,8 @@
         "name": "Lago de Guadalupe",
         "state": "MEXICO",
         "municipality": "CUAUTITLAN IZCALLI",
-        "latitude": 19.7358,
-        "longitude": -99.2450
+        "latitudee": 19.7358,
+        "longitudee": -99.2450
     },
     {
         "region": "VDM NORTE",
@@ -230,8 +230,8 @@
         "name": "Liquimex",
         "state": "MEXICO",
         "municipality": "CUAUTITLAN IZCALLI",
-        "latitude": 19.7250,
-        "longitude": -99.2350
+        "latitudee": 19.7250,
+        "longitudee": -99.2350
     },
     {
         "region": "VDM NORTE",
@@ -239,8 +239,8 @@
         "name": "Remedios",
         "state": "MEXICO",
         "municipality": "CUAUTITLAN IZCALLI",
-        "latitude": 19.7300,
-        "longitude": -99.2400
+        "latitudee": 19.7300,
+        "longitudee": -99.2400
     },
     {
         "region": "VDM NORTE",
@@ -248,8 +248,8 @@
         "name": "Remedios",
         "state": "MEXICO",
         "municipality": "CUAUTITLAN IZCALLI",
-        "latitude": 19.7305,
-        "longitude": -99.2405
+        "latitudee": 19.7305,
+        "longitudee": -99.2405
     },
     {
         "region": "VDM NORTE",
@@ -257,8 +257,8 @@
         "name": "Trimex",
         "state": "MEXICO",
         "municipality": "CUAUTITLAN IZCALLI",
-        "latitude": 19.7200,
-        "longitude": -99.2300
+        "latitudee": 19.7200,
+        "longitudee": -99.2300
     },
     {
         "region": "VDM NORTE",
@@ -266,8 +266,8 @@
         "name": "Victoria",
         "pais": "MEXICO",
         "municipio": "CUAUTITLAN IZCALLI",
-        "latitud": 19.6469,
-        "longitud": -99.2158
+        "latitude": 19.6469,
+        "longitude": -99.2158
     },
     {
         "region": "VDM NORTE",
@@ -275,8 +275,8 @@
         "name": "Victoria",
         "pais": "MEXICO",
         "municipio": "CUAUTITLAN IZCALLI",
-        "latitud": 19.6469,
-        "longitud": -99.2158
+        "latitude": 19.6469,
+        "longitude": -99.2158
     },
     {
         "region": "VDM NORTE",
@@ -284,8 +284,8 @@
         "name": "Zumpango",
         "pais": "MEXICO",
         "municipio": "CUAUTITLAN IZCALLI",
-        "latitud": 19.6469,
-        "longitud": -99.2158
+        "latitude": 19.6469,
+        "longitude": -99.2158
     },
     {
         "region": "CENTRO SUR",
@@ -293,8 +293,8 @@
         "name": "Donato Guerra",
         "pais": "MEXICO",
         "municipio": "DONATO GUERRA",
-        "latitud": 19.3083,
-        "longitud": -100.1417
+        "latitude": 19.3083,
+        "longitude": -100.1417
     },
     {
         "region": "CENTRO SUR",
@@ -302,8 +302,8 @@
         "name": "Subestacion Cuatro Bombeo",
         "pais": "MEXICO",
         "municipio": "DONATO GUERRA",
-        "latitud": 19.3083,
-        "longitud": -100.1417
+        "latitude": 19.3083,
+        "longitude": -100.1417
     },
     {
         "region": "CENTRO SUR",
@@ -311,8 +311,8 @@
         "name": "Subestacion Dos Bombeo",
         "pais": "MEXICO",
         "municipio": "DONATO GUERRA",
-        "latitud": 19.3083,
-        "longitud": -100.1417
+        "latitude": 19.3083,
+        "longitude": -100.1417
     },
     {
         "region": "CENTRO SUR",
@@ -320,8 +320,8 @@
         "name": "Subestacion Tres Bombeo",
         "pais": "MEXICO",
         "municipio": "DONATO GUERRA",
-        "latitud": 19.3083,
-        "longitud": -100.1417
+        "latitude": 19.3083,
+        "longitude": -100.1417
     },
     {
         "region": "VDM NORTE",
@@ -329,8 +329,8 @@
         "name": "Aztecas",
         "pais": "MEXICO",
         "municipio": "ECATEPEC DE MORELOS",
-        "latitud": 19.6018,
-        "longitud": -99.0506
+        "latitude": 19.6018,
+        "longitude": -99.0506
     },
     {
         "region": "VDM NORTE",
@@ -338,8 +338,8 @@
         "name": "Carton y Papel de Mexico",
         "pais": "MEXICO",
         "municipio": "ECATEPEC DE MORELOS",
-        "latitud": 19.6018,
-        "longitud": -99.0506
+        "latitude": 19.6018,
+        "longitude": -99.0506
     },
     {
         "region": "VDM NORTE",
@@ -347,8 +347,8 @@
         "name": "Cerro Gordo",
         "pais": "MEXICO",
         "municipio": "ECATEPEC DE MORELOS",
-        "latitud": 19.6018,
-        "longitud": -99.0506
+        "latitude": 19.6018,
+        "longitude": -99.0506
     },
     {
         "region": "VDM NORTE",
@@ -356,8 +356,8 @@
         "name": "Ecatepec",
         "pais": "MEXICO",
         "municipio": "ECATEPEC DE MORELOS",
-        "latitud": 19.6018,
-        "longitud": -99.0506
+        "latitude": 19.6018,
+        "longitude": -99.0506
     },
     {
         "region": "VDM NORTE",
@@ -365,8 +365,8 @@
         "name": "Industrial San Cristobal",
         "pais": "MEXICO",
         "municipio": "ECATEPEC DE MORELOS",
-        "latitud": 19.6018,
-        "longitud": -99.0506
+        "latitude": 19.6018,
+        "longitude": -99.0506
     },
     {
         "region": "VDM NORTE",
@@ -374,8 +374,8 @@
         "name": "Jabon La Corona",
         "pais": "MEXICO",
         "municipio": "ECATEPEC DE MORELOS",
-        "latitud": 19.6018,
-        "longitud": -99.0506
+        "latitude": 19.6018,
+        "longitude": -99.0506
     },
     {
         "region": "VDM NORTE",
@@ -383,8 +383,8 @@
         "name": "La Costeña",
         "pais": "MEXICO",
         "municipio": "ECATEPEC DE MORELOS",
-        "latitud": 19.6018,
-        "longitud": -99.0506
+        "latitude": 19.6018,
+        "longitude": -99.0506
     },
     {
         "region": "VDM NORTE",
@@ -392,8 +392,8 @@
         "name": "Madero",
         "pais": "MEXICO",
         "municipio": "ECATEPEC DE MORELOS",
-        "latitud": 19.6018,
-        "longitud": -99.0506
+        "latitude": 19.6018,
+        "longitude": -99.0506
     },
     {
         "region": "VDM NORTE",
@@ -401,8 +401,8 @@
         "name": "Caracol",
         "pais": "MEXICO",
         "municipio": "ECATEPEC DE MORELOS",
-        "latitud": 19.6018,
-        "longitud": -99.0506
+        "latitude": 19.6018,
+        "longitude": -99.0506
     },
     {
         "region": "VDM NORTE",
@@ -410,8 +410,8 @@
         "name": "Valle de Mexico",
         "pais": "MEXICO",
         "municipio": "ECATEPEC DE MORELOS",
-        "latitud": 19.6018,
-        "longitud": -99.0506
+        "latitude": 19.6018,
+        "longitude": -99.0506
     },
     {
         "region": "VDM NORTE",
@@ -419,8 +419,8 @@
         "name": "Valle de Mexico Turbogas",
         "pais": "MEXICO",
         "municipio": "ECATEPEC DE MORELOS",
-        "latitud": 19.6018,
-        "longitud": -99.0506
+        "latitude": 19.6018,
+        "longitude": -99.0506
     },
     {
         "region": "VDM NORTE",
@@ -428,8 +428,8 @@
         "name": "Xalostoc",
         "pais": "MEXICO",
         "municipio": "ECATEPEC DE MORELOS",
-        "latitud": 19.6018,
-        "longitud": -99.0506
+        "latitude": 19.6018,
+        "longitude": -99.0506
     },
     {
         "region": "VDM NORTE",
@@ -437,8 +437,8 @@
         "name": "Las Americas",
         "pais": "MEXICO",
         "municipio": "HUEHUETOCA",
-        "latitud": 19.8375,
-        "longitud": -99.2039
+        "latitude": 19.8375,
+        "longitude": -99.2039
     },
     {
         "region": "VDM NORTE",
@@ -446,8 +446,8 @@
         "name": "Tecamachalco",
         "pais": "MEXICO",
         "municipio": "HUIXQUILUCAN",
-        "latitud": 19.3608,
-        "longitud": -99.3508
+        "latitude": 19.3608,
+        "longitude": -99.3508
     },
     {
         "region": "VDM SUR",
@@ -455,8 +455,8 @@
         "name": "Ixtapaluca",
         "pais": "MEXICO",
         "municipio": "IXTAPALUCA",
-        "latitud": 19.3186,
-        "longitud": -98.8824
+        "latitude": 19.3186,
+        "longitude": -98.8824
     },
     {
         "region": "VDM SUR",
@@ -464,8 +464,8 @@
         "name": "San Francisco",
         "pais": "MEXICO",
         "municipio": "IXTAPALUCA",
-        "latitud": 19.3186,
-        "longitud": -98.8824
+        "latitude": 19.3186,
+        "longitude": -98.8824
     },
     {
         "region": "CENTRO SUR",
@@ -473,8 +473,8 @@
         "name": "Ixtapan de la Sal Mexico",
         "pais": "MEXICO",
         "municipio": "IXTAPAN DE LA SAL",
-        "latitud": 18.8439,
-        "longitud": -99.6767
+        "latitude": 18.8439,
+        "longitude": -99.6767
     },
     {
         "region": "CENTRO SUR",
@@ -482,8 +482,8 @@
         "name": "Ixtlahuaca Dos",
         "pais": "MEXICO",
         "municipio": "IXTLAHUACA",
-        "latitud": 19.5689,
-        "longitud": -99.7669
+        "latitude": 19.5689,
+        "longitude": -99.7669
     },
     {
         "region": "CENTRO SUR",
@@ -491,8 +491,8 @@
         "name": "Nutrigo",
         "pais": "MEXICO",
         "municipio": "IXTLAHUACA",
-        "latitud": 19.5689,
-        "longitud": -99.7669
+        "latitude": 19.5689,
+        "longitude": -99.7669
     },
     {
         "region": "CENTRO SUR",
@@ -500,8 +500,8 @@
         "name": "Jilotepec Industrial",
         "pais": "MEXICO",
         "municipio": "JILOTEPEC",
-        "latitud": 19.9506,
-        "longitud": -99.5328
+        "latitude": 19.9506,
+        "longitude": -99.5328
     },
     {
         "region": "CENTRO SUR",
@@ -509,8 +509,8 @@
         "name": "Jilotepec Mexico",
         "pais": "MEXICO",
         "municipio": "JILOTEPEC",
-        "latitud": 19.9506,
-        "longitud": -99.5328
+        "latitude": 19.9506,
+        "longitude": -99.5328
     },
     {
         "region": "CENTRO SUR",
@@ -518,8 +518,8 @@
         "name": "Industrias Unidas",
         "pais": "MEXICO",
         "municipio": "JOCOTITLAN",
-        "latitud": 19.7075,
-        "longitud": -99.7889
+        "latitude": 19.7075,
+        "longitude": -99.7889
     },
     {
         "region": "CENTRO SUR",
@@ -527,8 +527,8 @@
         "name": "Iusasol 1",
         "pais": "MEXICO",
         "municipio": "JOCOTITLAN",
-        "latitud": 19.7075,
-        "longitud": -99.7889
+        "latitude": 19.7075,
+        "longitude": -99.7889
     },
     {
         "region": "VDM CENTRO",
@@ -536,8 +536,8 @@
         "name": "La Paz",
         "pais": "MEXICO",
         "municipio": "LA PAZ",
-        "latitud": 19.3636,
-        "longitud": -98.9778
+        "latitude": 19.3636,
+        "longitude": -98.9778
     },
     {
         "region": "VDM SUR",
@@ -545,8 +545,8 @@
         "name": "Apaplastic",
         "pais": "MEXICO",
         "municipio": "LERMA",
-        "latitud": 19.2847,
-        "longitud": -99.5119
+        "latitude": 19.2847,
+        "longitude": -99.5119
     },
     {
         "region": "VDM SUR",
@@ -554,8 +554,8 @@
         "name": "Amomolulco",
         "pais": "MEXICO",
         "municipio": "LERMA",
-        "latitud": 19.2847,
-        "longitud": -99.5119
+        "latitude": 19.2847,
+        "longitude": -99.5119
     },
     {
         "region": "VDM SUR",
@@ -563,8 +563,8 @@
         "name": "El Cerrito",
         "pais": "MEXICO",
         "municipio": "LERMA",
-        "latitud": 19.2847,
-        "longitud": -99.5119
+        "latitude": 19.2847,
+        "longitude": -99.5119
     },
     {
         "region": "VDM SUR",
@@ -572,8 +572,8 @@
         "name": "General Motors de Mexico",
         "pais": "MEXICO",
         "municipio": "LERMA",
-        "latitud": 19.2847,
-        "longitud": -99.5119
+        "latitude": 19.2847,
+        "longitude": -99.5119
     },
     {
         "region": "VDM SUR",
@@ -581,8 +581,8 @@
         "name": "Nissan",
         "pais": "MEXICO",
         "municipio": "LERMA",
-        "latitud": 19.2847,
-        "longitud": -99.5119
+        "latitude": 19.2847,
+        "longitude": -99.5119
     },
     {
         "region": "VDM SUR",
@@ -590,8 +590,8 @@
         "name": "Tlatelulco",
         "pais": "MEXICO",
         "municipio": "METEPEC",
-        "latitud": 19.2533,
-        "longitud": -99.6044
+        "latitude": 19.2533,
+        "longitude": -99.6044
     },
     {
         "region": "CENTRO SUR",
@@ -599,8 +599,8 @@
         "name": "San Sebastian",
         "pais": "MEXICO",
         "municipio": "MORELOS",
-        "latitud": 18.7392,
-        "longitud": -99.1019
+        "latitude": 18.7392,
+        "longitude": -99.1019
     },
     {
         "region": "VDM CENTRO",
@@ -608,8 +608,8 @@
         "name": "Industria Militar",
         "pais": "MEXICO",
         "municipio": "NAUCALPAN DE JUAREZ",
-        "latitud": 19.4753,
-        "longitud": -99.2378
+        "latitude": 19.4753,
+        "longitude": -99.2378
     },
     {
         "region": "VDM NORTE",
@@ -617,8 +617,8 @@
         "name": "Lomas Verdes",
         "pais": "MEXICO",
         "municipio": "NAUCALPAN DE JUAREZ",
-        "latitud": 19.4753,
-        "longitud": -99.2378
+        "latitude": 19.4753,
+        "longitude": -99.2378
     },
     {
         "region": "VDM NORTE",
@@ -626,8 +626,8 @@
         "name": "Chimalpa",
         "pais": "MEXICO",
         "municipio": "NAUCALPAN DE JUAREZ",
-        "latitud": 19.4753,
-        "longitud": -99.2378
+        "latitude": 19.4753,
+        "longitude": -99.2378
     },
     {
         "region": "VDM NORTE",
@@ -635,8 +635,8 @@
         "name": "Naucalpan",
         "pais": "MEXICO",
         "municipio": "NAUCALPAN DE JUAREZ",
-        "latitud": 19.4753,
-        "longitud": -99.2378
+        "latitude": 19.4753,
+        "longitude": -99.2378
     },
     {
         "region": "VDM CENTRO",
@@ -644,8 +644,8 @@
         "name": "Milagros",
         "pais": "MEXICO",
         "municipio": "NEZAHUALCOYOTL",
-        "latitud": 19.4006,
-        "longitud": -98.9889
+        "latitude": 19.4006,
+        "longitude": -98.9889
     },
     {
         "region": "VDM CENTRO",
@@ -653,8 +653,8 @@
         "name": "Netzahualcoyotl",
         "pais": "MEXICO",
         "municipio": "NEZAHUALCOYOTL",
-        "latitud": 19.4006,
-        "longitud": -98.9889
+        "latitude": 19.4006,
+        "longitude": -98.9889
     },
     {
         "region": "VDM NORTE",
@@ -662,8 +662,8 @@
         "name": "El Vidrio",
         "pais": "MEXICO",
         "municipio": "NICOLAS ROMERO",
-        "latitud": 19.6258,
-        "longitud": -99.3139
+        "latitude": 19.6258,
+        "longitude": -99.3139
     },
     {
         "region": "VDM SUR",
@@ -671,8 +671,8 @@
         "name": "Tren Interurbano Mexico-Toluca Uno",
         "pais": "MEXICO",
         "municipio": "OCOYOACAC",
-        "latitud": 19.2719,
-        "longitud": -99.4639
+        "latitude": 19.2719,
+        "longitude": -99.4639
     },
     {
         "region": "CENTRO ORIENTE",
@@ -680,8 +680,10 @@
         "name": "Otumba Maniobras",
         "pais": "MEXICO",
         "municipio": "OTUMBA",
-        "latitud": 19.6992,
-        "longitud": -98.7569
+        "latitude": 19.6992,
+        "longitude": -98.7569,
+        "hora": 1,
+        "precio": 5
     },
     {
         "region": "CENTRO SUR",
@@ -689,8 +691,8 @@
         "name": "Tingambato",
         "pais": "MEXICO",
         "municipio": "OTZOLOAPAN",
-        "latitud": 19.1175,
-        "longitud": -100.2919
+        "latitude": 19.1175,
+        "longitude": -100.2919
     },
     {
         "region": "CENTRO SUR",
@@ -698,8 +700,8 @@
         "name": "San Felipe del Progreso",
         "pais": "MEXICO",
         "municipio": "SAN FELIPE DEL PROGRESO",
-        "latitud": 19.7125,
-        "longitud": -99.9519
+        "latitude": 19.7125,
+        "longitude": -99.9519
     },
     {
         "region": "CENTRO SUR",
@@ -707,8 +709,8 @@
         "name": "Palizada Mexico",
         "pais": "MEXICO",
         "municipio": "SAN JOSE DEL RINCON",
-        "latitud": 19.6333,
-        "longitud": -100.1333
+        "latitude": 19.6333,
+        "longitude": -100.1333
     },
     {
         "region": "CENTRO SUR",
@@ -716,8 +718,8 @@
         "name": "Santa Barbara",
         "pais": "MEXICO",
         "municipio": "SANTO TOMAS",
-        "latitud": 19.1833,
-        "longitud": -100.2667
+        "latitude": 19.1833,
+        "longitude": -100.2667
     },
     {
         "region": "CENTRO SUR",
@@ -725,8 +727,8 @@
         "name": "Ixtapantongo",
         "pais": "MEXICO",
         "municipio": "SANTO TOMAS",
-        "latitud": 19.1833,
-        "longitud": -100.2667
+        "latitude": 19.1833,
+        "longitude": -100.2667
     },
     {
         "region": "VDM NORTE",
@@ -734,8 +736,8 @@
         "name": "Tecamac",
         "pais": "MEXICO",
         "municipio": "TECAMAC",
-        "latitud": 19.7131,
-        "longitud": -98.9689
+        "latitude": 19.7131,
+        "longitude": -98.9689
     },
     {
         "region": "VDM NORTE",
@@ -743,8 +745,8 @@
         "name": "Tecamac Movil",
         "pais": "MEXICO",
         "municipio": "TECAMAC",
-        "latitud": 19.7131,
-        "longitud": -98.9689
+        "latitude": 19.7131,
+        "longitude": -98.9689
     },
     {
         "region": "CENTRO SUR",
@@ -752,8 +754,8 @@
         "name": "Tejupilco Edo de Mexico",
         "pais": "MEXICO",
         "municipio": "TEJUPILCO",
-        "latitud": 18.9058,
-        "longitud": -100.1528
+        "latitude": 18.9058,
+        "longitude": -100.1528
     },
     {
         "region": "CENTRO SUR",
@@ -761,8 +763,8 @@
         "name": "Canchesda Nueva",
         "pais": "MEXICO",
         "municipio": "TEMASCALCINGO",
-        "latitud": 19.9167,
-        "longitud": -100.0000
+        "latitude": 19.9167,
+        "longitude": -100.0000
     },
     {
         "region": "CENTRO SUR",
@@ -770,8 +772,8 @@
         "name": "Comalco",
         "pais": "MEXICO",
         "municipio": "TEMOAYA",
-        "latitud": 19.4667,
-        "longitud": -99.6000
+        "latitude": 19.4667,
+        "longitude": -99.6000
     },
     {
         "region": "VDM SUR",
@@ -779,8 +781,8 @@
         "name": "Tenango del Valle",
         "pais": "MEXICO",
         "municipio": "TENANGO DEL VALLE",
-        "latitud": 19.1017,
-        "longitud": -99.5894
+        "latitude": 19.1017,
+        "longitude": -99.5894
     },
     {
         "region": "VDM SUR",
@@ -788,8 +790,8 @@
         "name": "Zictepec",
         "pais": "MEXICO",
         "municipio": "TENANGO DEL VALLE",
-        "latitud": 19.1017,
-        "longitud": -99.5894
+        "latitude": 19.1017,
+        "longitude": -99.5894
     },
     {
         "region": "VDM NORTE",
@@ -797,8 +799,8 @@
         "name": "Coyotepec",
         "pais": "MEXICO",
         "municipio": "TEPOTZOTLAN",
-        "latitud": 19.7167,
-        "longitud": -99.2167
+        "latitude": 19.7167,
+        "longitude": -99.2167
     },
     {
         "region": "VDM NORTE",
@@ -806,8 +808,8 @@
         "name": "Jugos del Valle",
         "pais": "MEXICO",
         "municipio": "TEPOTZOTLAN",
-        "latitud": 19.7167,
-        "longitud": -99.2167
+        "latitude": 19.7167,
+        "longitude": -99.2167
     },
     {
         "region": "CENTRO SUR",
@@ -815,8 +817,8 @@
         "name": "Texcaltitlan",
         "pais": "MEXICO",
         "municipio": "TEXCALTITLAN",
-        "latitud": 18.9333,
-        "longitud": -99.9333
+        "latitude": 18.9333,
+        "longitude": -99.9333
     },
     {
         "region": "VDM CENTRO",
@@ -824,8 +826,8 @@
         "name": "Chapingo",
         "pais": "MEXICO",
         "municipio": "TEXCOCO",
-        "latitud": 19.5167,
-        "longitud": -98.8833
+        "latitude": 19.5167,
+        "longitude": -98.8833
     },
     {
         "region": "VDM CENTRO",
@@ -833,8 +835,8 @@
         "name": "Veronica",
         "pais": "MEXICO",
         "municipio": "TEXCOCO",
-        "latitud": 19.5167,
-        "longitud": -98.8833
+        "latitude": 19.5167,
+        "longitude": -98.8833
     },
     {
         "region": "VDM SUR",
@@ -842,8 +844,8 @@
         "name": "Estadio",
         "pais": "MEXICO",
         "municipio": "TEZOYUCA",
-        "latitud": 19.5833,
-        "longitud": -98.9167
+        "latitude": 19.5833,
+        "longitude": -98.9167
     },
     {
         "region": "VDM SUR",
@@ -851,8 +853,8 @@
         "name": "Tianguistenco",
         "pais": "MEXICO",
         "municipio": "TIANGUISTENCO",
-        "latitud": 19.1797,
-        "longitud": -99.4664
+        "latitude": 19.1797,
+        "longitude": -99.4664
     },
     {
         "region": "CENTRO ORIENTE",
@@ -860,8 +862,8 @@
         "name": "Aceros Corsa",
         "pais": "MEXICO",
         "municipio": "TLALNEPANTLA DE BAZ",
-        "latitud": 19.5369,
-        "longitud": -99.1947
+        "latitude": 19.5369,
+        "longitude": -99.1947
     },
     {
         "region": "VDM NORTE",
@@ -869,8 +871,8 @@
         "name": "Aceros Corsa",
         "pais": "MEXICO",
         "municipio": "TLALNEPANTLA DE BAZ",
-        "latitud": 19.5369,
-        "longitud": -99.1947
+        "latitude": 19.5369,
+        "longitude": -99.1947
     },
     {
         "region": "VDM NORTE",
@@ -878,8 +880,8 @@
         "name": "Aceros Nacionales",
         "pais": "MEXICO",
         "municipio": "TLALNEPANTLA DE BAZ",
-        "latitud": 19.5369,
-        "longitud": -99.1947
+        "latitude": 19.5369,
+        "longitude": -99.1947
     },
     {
         "region": "VDM NORTE",
@@ -887,8 +889,8 @@
         "name": "Auto Metales",
         "pais": "MEXICO",
         "municipio": "TLALNEPANTLA DE BAZ",
-        "latitud": 19.5369,
-        "longitud": -99.1947
+        "latitude": 19.5369,
+        "longitude": -99.1947
     },
     {
         "region": "VDM NORTE",
@@ -896,8 +898,8 @@
         "name": "Barrientos",
         "pais": "MEXICO",
         "municipio": "TLALNEPANTLA DE BAZ",
-        "latitud": 19.5369,
-        "longitud": -99.1947
+        "latitude": 19.5369,
+        "longitude": -99.1947
     },
     {
         "region": "VDM NORTE",
@@ -905,8 +907,8 @@
         "name": "Careaga",
         "pais": "MEXICO",
         "municipio": "TLALNEPANTLA DE BAZ",
-        "latitud": 19.5369,
-        "longitud": -99.1947
+        "latitude": 19.5369,
+        "longitude": -99.1947
     },
     {
         "region": "VDM NORTE",
@@ -914,8 +916,8 @@
         "name": "Ceilan",
         "pais": "MEXICO",
         "municipio": "TLALNEPANTLA DE BAZ",
-        "latitud": 19.5369,
-        "longitud": -99.1947
+        "latitude": 19.5369,
+        "longitude": -99.1947
     },
     {
         "region": "VDM NORTE",
@@ -923,8 +925,8 @@
         "name": "Cofraida",
         "pais": "MEXICO",
         "municipio": "TLALNEPANTLA DE BAZ",
-        "latitud": 19.5369,
-        "longitud": -99.1947
+        "latitude": 19.5369,
+        "longitude": -99.1947
     },
     {
         "region": "VDM NORTE",
@@ -932,8 +934,8 @@
         "name": "Campos Hermanos",
         "pais": "MEXICO",
         "municipio": "TLALNEPANTLA DE BAZ",
-        "latitud": 19.5369,
-        "longitud": -99.1947
+        "latitude": 19.5369,
+        "longitude": -99.1947
     },
     {
         "region": "VDM NORTE",
@@ -941,8 +943,8 @@
         "name": "Loma",
         "pais": "MEXICO",
         "municipio": "TLALNEPANTLA DE BAZ",
-        "latitud": 19.5369,
-        "longitud": -99.1947
+        "latitude": 19.5369,
+        "longitude": -99.1947
     },
     {
         "region": "VDM NORTE",
@@ -950,8 +952,8 @@
         "name": "Vallejo",
         "pais": "MEXICO",
         "municipio": "TLALNEPANTLA DE BAZ",
-        "latitud": 19.5369,
-        "longitud": -99.1947
+        "latitude": 19.5369,
+        "longitude": -99.1947
     },
     {
         "region": "VDM NORTE",
@@ -959,8 +961,8 @@
         "name": "Vidriera los Reyes",
         "pais": "MEXICO",
         "municipio": "TLALNEPANTLA DE BAZ",
-        "latitud": 19.5369,
-        "longitud": -99.1947
+        "latitude": 19.5369,
+        "longitude": -99.1947
     },
     {
         "region": "VDM NORTE",
@@ -968,8 +970,8 @@
         "name": "Vidrio Plano de Mexico",
         "pais": "MEXICO",
         "municipio": "TLALNEPANTLA DE BAZ",
-        "latitud": 19.5369,
-        "longitud": -99.1947
+        "latitude": 19.5369,
+        "longitude": -99.1947
     },
     {
         "region": "VDM SUR",
@@ -977,8 +979,8 @@
         "name": "Avante Textil",
         "pais": "MEXICO",
         "municipio": "TOLUCA",
-        "latitud": 19.2925,
-        "longitud": -99.6569
+        "latitude": 19.2925,
+        "longitude": -99.6569
     },
     {
         "region": "VDM SUR",
@@ -986,8 +988,8 @@
         "name": "Chrysler de Mexico",
         "pais": "MEXICO",
         "municipio": "TOLUCA",
-        "latitud": 19.2925,
-        "longitud": -99.6569
+        "latitude": 19.2925,
+        "longitude": -99.6569
     },
     {
         "region": "VDM SUR",
@@ -995,8 +997,8 @@
         "name": "Nestle",
         "pais": "MEXICO",
         "municipio": "TOLUCA",
-        "latitud": 19.2925,
-        "longitud": -99.6569
+        "latitude": 19.2925,
+        "longitude": -99.6569
     },
     {
         "region": "VDM SUR",
@@ -1004,8 +1006,8 @@
         "name": "Propimex",
         "pais": "MEXICO",
         "municipio": "TOLUCA",
-        "latitud": 19.2925,
-        "longitud": -99.6569
+        "latitude": 19.2925,
+        "longitude": -99.6569
     },
     {
         "region": "VDM SUR",
@@ -1013,8 +1015,8 @@
         "name": "Puerta de Hierro",
         "pais": "MEXICO",
         "municipio": "TOLUCA",
-        "latitud": 19.2925,
-        "longitud": -99.6569
+        "latitude": 19.2925,
+        "longitude": -99.6569
     },
     {
         "region": "VDM SUR",
@@ -1022,8 +1024,8 @@
         "name": "Robert Bosch",
         "pais": "MEXICO",
         "municipio": "TOLUCA",
-        "latitud": 19.2925,
-        "longitud": -99.6569
+        "latitude": 19.2925,
+        "longitude": -99.6569
     },
     {
         "region": "VDM SUR",
@@ -1031,8 +1033,8 @@
         "name": "Safmex",
         "pais": "MEXICO",
         "municipio": "TOLUCA",
-        "latitud": 19.2925,
-        "longitud": -99.6569
+        "latitude": 19.2925,
+        "longitude": -99.6569
     },
     {
         "region": "VDM SUR",
@@ -1040,8 +1042,8 @@
         "name": "San Diego",
         "pais": "MEXICO",
         "municipio": "TOLUCA",
-        "latitud": 19.2925,
-        "longitud": -99.6569
+        "latitude": 19.2925,
+        "longitude": -99.6569
     },
     {
         "region": "VDM SUR",
@@ -1049,8 +1051,8 @@
         "name": "Toluca 2000",
         "pais": "MEXICO",
         "municipio": "TOLUCA",
-        "latitud": 19.2925,
-        "longitud": -99.6569
+        "latitude": 19.2925,
+        "longitude": -99.6569
     },
     {
         "region": "VDM SUR",
@@ -1058,8 +1060,8 @@
         "name": "Toluca",
         "pais": "MEXICO",
         "municipio": "TOLUCA",
-        "latitud": 19.2925,
-        "longitud": -99.6569
+        "latitude": 19.2925,
+        "longitude": -99.6569
     },
     {
         "region": "VDM SUR",
@@ -1067,8 +1069,8 @@
         "name": "Totoltepec",
         "pais": "MEXICO",
         "municipio": "TOLUCA",
-        "latitud": 19.2925,
-        "longitud": -99.6569
+        "latitude": 19.2925,
+        "longitude": -99.6569
     },
     {
         "region": "VDM SUR",
@@ -1076,8 +1078,8 @@
         "name": "Vidriera Toluca",
         "pais": "MEXICO",
         "municipio": "TOLUCA",
-        "latitud": 19.2925,
-        "longitud": -99.6569
+        "latitude": 19.2925,
+        "longitude": -99.6569
     },
     {
         "region": "VDM NORTE",
@@ -1085,8 +1087,8 @@
         "name": "De Acero",
         "pais": "MEXICO",
         "municipio": "TULTITLAN",
-        "latitud": 19.6469,
-        "longitud": -99.1678
+        "latitude": 19.6469,
+        "longitude": -99.1678
     },
     {
         "region": "VDM NORTE",
@@ -1094,8 +1096,8 @@
         "name": "La Quebrada",
         "pais": "MEXICO",
         "municipio": "TULTITLAN",
-        "latitud": 19.6469,
-        "longitud": -99.1678
+        "latitude": 19.6469,
+        "longitude": -99.1678
     },
     {
         "region": "VDM NORTE",
@@ -1103,8 +1105,8 @@
         "name": "Lecheria",
         "pais": "MEXICO",
         "municipio": "TULTITLAN",
-        "latitud": 19.6469,
-        "longitud": -99.1678
+        "latitude": 19.6469,
+        "longitude": -99.1678
     },
     {
         "region": "VDM NORTE",
@@ -1112,8 +1114,8 @@
         "name": "Nueva Fanal",
         "pais": "MEXICO",
         "municipio": "TULTITLAN",
-        "latitud": 19.6469,
-        "longitud": -99.1678
+        "latitude": 19.6469,
+        "longitude": -99.1678
     },
     {
         "region": "CENTRO SUR",
@@ -1121,8 +1123,8 @@
         "name": "Agustin Millan",
         "pais": "MEXICO",
         "municipio": "VALLE DE BRAVO",
-        "latitud": 19.1919,
-        "longitud": -100.1319
+        "latitude": 19.1919,
+        "longitude": -100.1319
     },
     {
         "region": "CENTRO SUR",
@@ -1130,8 +1132,8 @@
         "name": "Avandaro",
         "pais": "MEXICO",
         "municipio": "VALLE DE BRAVO",
-        "latitud": 19.1919,
-        "longitud": -100.1319
+        "latitude": 19.1919,
+        "longitude": -100.1319
     },
     {
         "region": "CENTRO SUR",
@@ -1139,8 +1141,8 @@
         "name": "Subestacion Uno Bombeo",
         "pais": "MEXICO",
         "municipio": "VALLE DE BRAVO",
-        "latitud": 19.1919,
-        "longitud": -100.1319
+        "latitude": 19.1919,
+        "longitude": -100.1319
     },
     {
         "region": "CENTRO SUR",
@@ -1148,8 +1150,8 @@
         "name": "Subestacion Seis Bombeo",
         "pais": "MEXICO",
         "municipio": "VILLA DEL CARBON",
-        "latitud": 19.7167,
-        "longitud": -99.4667
+        "latitude": 19.7167,
+        "longitude": -99.4667
     },
     {
         "region": "CENTRO SUR",
@@ -1157,8 +1159,8 @@
         "name": "Villa Guerrero",
         "pais": "MEXICO",
         "municipio": "VILLA GUERRERO",
-        "latitud": 18.9622,
-        "longitud": -99.6406
+        "latitude": 18.9622,
+        "longitude": -99.6406
     },
     {
         "region": "CENTRO SUR",
@@ -1166,8 +1168,8 @@
         "name": "Subestacion Cinco Bombeo",
         "pais": "MEXICO",
         "municipio": "VILLA VICTORIA",
-        "latitud": 19.4333,
-        "longitud": -99.9833
+        "latitude": 19.4333,
+        "longitude": -99.9833
     },
     {
         "region": "CENTRO SUR",
@@ -1175,8 +1177,8 @@
         "name": "Minera Tizapa",
         "pais": "MEXICO",
         "municipio": "ZACAZONAPAN",
-        "latitud": 19.0833,
-        "longitud": -100.1833
+        "latitude": 19.0833,
+        "longitude": -100.1833
     },
     {
         "region": "CENTRO SUR",
@@ -1184,8 +1186,8 @@
         "name": "Tres Marias",
         "pais": "MEXICO",
         "municipio": "ZACAZONAPAN",
-        "latitud": 19.0833,
-        "longitud": -100.1833
+        "latitude": 19.0833,
+        "longitude": -100.1833
     },
     {
         "region": "VDM SUR",
@@ -1193,8 +1195,8 @@
         "name": "Deportiva",
         "pais": "MEXICO",
         "municipio": "ZINACANTEPEC",
-        "latitud": 19.2833,
-        "longitud": -99.7333
+        "latitude": 19.2833,
+        "longitude": -99.7333
     },
     {
         "region": "CENTRO ORIENTE",
@@ -1202,7 +1204,16 @@
         "name": "Aeropuerto Internacional Felipe Angeles Maniobras",
         "pais": "MEXICO",
         "municipio": "ZUMPANGO",
-        "latitud": 19.7958,
-        "longitud": -99.0186
+        "latitude": 19.7958,
+        "longitude": -99.0186
+    },
+    {
+        "region": "CENTRO ORIENTE",
+        "code": "01AFM-230",
+        "name": "Aeropuerto Internacional Felipe Angeles Maniobras",
+        "pais": "MEXICO",
+        "municipio": "ZUMPANGO",
+        "latitude": 19.305972,
+        "longitude": -99.556539
     }
 ]

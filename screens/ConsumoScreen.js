@@ -10,6 +10,9 @@ import {
 } from 'react-native';
 import { styles } from '../styles/globalStyles';
 import { AuthContext } from '../context/AuthContext';
+import { CENACE_BASE_URL } from "../config/constants"; // ajusta la ruta según tu estructura
+
+
 
 export default function ConsumoScreen() {
   const { user } = useContext(AuthContext);
@@ -35,7 +38,8 @@ export default function ConsumoScreen() {
       const month = String(today.getMonth() + 1).padStart(2, '0');
       const day = String(today.getDate()).padStart(2, '0');
       const regionCode = user.region.replace(/\s+/g, '-');
-      const url = `https://ws01.cenace.gob.mx:8082/SWPEND/SIM/SIN/MDA/${regionCode}/${year}/${month}/${day}/${year}/${month}/${day}/JSON`;
+      const url = `${CENACE_BASE_URL}/${regionCode}/${year}/${month}/${day}/${year}/${month}/${day}/JSON`;
+      //CENACE_BASE_URL
       console.log("Se genera la url para buscar los precios por hora: ");
       console.log(url);
       const response = await fetch(url);

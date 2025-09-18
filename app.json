@@ -13,7 +13,10 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyDI4l5Ulzz7GXWs42zkgfDNlZyxbHOB8PY"
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -23,11 +26,14 @@
       "edgeToEdgeEnabled": true,
       "permissions": [
         "android.permission.ACCESS_COARSE_LOCATION",
-        "android.permission.ACCESS_FINE_LOCATION",
-        "android.permission.ACCESS_COARSE_LOCATION",
         "android.permission.ACCESS_FINE_LOCATION"
       ],
-      "package": "com.anonymous.ecosessionapp"
+      "package": "com.anonymous.ecosessionapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDI4l5Ulzz7GXWs42zkgfDNlZyxbHOB8PY"
+        }
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -39,7 +45,15 @@
           "locationAlwaysAndWhenInUsePermission": "Permitir que $(PRODUCT_NAME) acceda a tu ubicación en todo momento.",
           "locationWhenInUsePermission": "Permitir que $(PRODUCT_NAME) acceda a tu ubicación mientras usas la app."
         }
-      ]
-    ]
+      ],
+      "expo-asset",
+      "expo-font"
+    ],
+    "extra": {
+      "GOOGLE_MAPS_KEY": "AIzaSyDI4l5Ulzz7GXWs42zkgfDNlZyxbHOB8PY",
+      "eas": {
+        "projectId": "9df99a1c-135b-4b8b-b8e1-720b2c1a0670"
+      }
+    }
   }
 }

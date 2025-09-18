@@ -7,7 +7,10 @@ import {
     Alert,
     ScrollView,
     View,
-    ActivityIndicator
+    ActivityIndicator,
+    TouchableOpacity,
+    KeyboardAvoidingView,
+    Platform
 } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import * as Location from 'expo-location';
@@ -15,6 +18,7 @@ import { styles } from '../styles/globalStyles';
 import { AuthContext } from '../context/AuthContext';
 import regionesData from '../assets/regiones.json';
 import { CommonActions } from '@react-navigation/native';
+import { API_URL } from "../config/constants"; // ajusta la ruta según tu estructura
 
 const tarifasDisponibles = ['DAC', '1', '1A', '1B', '1C', '1D', '1E', '1F', '2', '2A', '3'];
 
@@ -105,8 +109,7 @@ export default function RegisterScreen({ navigation }) {
                 obj: 'register',
             };
 
-            //const response = await fetch('http://192.168.100.3:8080/eco/index.php', {
-            const response = await fetch('http://192.168.1.22:8080/eco/index.php', {
+            const response = await fetch(`${API_URL}/eco/index.php`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(datos),
@@ -114,9 +117,7 @@ export default function RegisterScreen({ navigation }) {
 
             const data = await response.json();
 
-            
             if (data.mensaje === 'Registro exitoso') {
-                // Usamos los datos que devuelve el servidor combinados con los de ubicación
                 const usuarioCompleto = {
                     ...data.usuario,
                     coords: { latitude, longitude },
@@ -138,9 +139,6 @@ export default function RegisterScreen({ navigation }) {
             } else {
                 Alert.alert('Error', data.mensaje || 'Error en el registro');
             }
-                
-
-
 
         } catch (error) {
             console.error('Error:', error);
@@ -151,116 +149,133 @@ export default function RegisterScreen({ navigation }) {
     };
 
     return (
-        <ScrollView contentContainerStyle={styles.container}>
-            <Text style={styles.title}>Registro</Text>
-
-            <TextInput
-                style={styles.input}
-                placeholder="Nombre"
-                value={nombre}
-                onChangeText={setNombre}
-                placeholderTextColor="#8B5E3C"
-            />
-            <TextInput
-                style={styles.input}
-                placeholder="Apellido Paterno"
-                value={apellidoP}
-                onChangeText={setApellidoP}
-                placeholderTextColor="#8B5E3C"
-            />
-            <TextInput
-                style={styles.input}
-                placeholder="Apellido Materno"
-                value={apellidoM}
-                onChangeText={setApellidoM}
-                placeholderTextColor="#8B5E3C"
-            />
-            <TextInput
-                style={styles.input}
-                placeholder="Usuario"
-                value={usuario}
-                onChangeText={setUsuario}
-                placeholderTextColor="#8B5E3C"
-            />
-            <TextInput
-                style={styles.input}
-                placeholder="Contraseña"
-                secureTextEntry
-                value={password}
-                onChangeText={setPassword}
-                placeholderTextColor="#8B5E3C"
-            />
-            <TextInput
-                style={styles.input}
-                placeholder="Correo"
-                keyboardType="email-address"
-                value={correo}
-                onChangeText={setCorreo}
-                placeholderTextColor="#8B5E3C"
-            />
-            <TextInput
-                style={styles.input}
-                placeholder="Teléfono"
-                keyboardType="phone-pad"
-                value={telefono}
-                onChangeText={setTelefono}
-                placeholderTextColor="#8B5E3C"
-            />
-            <TextInput
-                style={styles.input}
-                placeholder="Dirección"
-                value={direccion}
-                onChangeText={setDireccion}
-                placeholderTextColor="#8B5E3C"
-            />
-            <TextInput
-                style={styles.input}
-                placeholder="Código Postal"
-                keyboardType="numeric"
-                value={codigoPostal}
-                onChangeText={setCodigoPostal}
-                placeholderTextColor="#8B5E3C"
-            />
-
-            <Text style={{ fontWeight: 'bold', marginTop: 15 }}>Tarifa Eléctrica</Text>
-            <View 
-            style={{
-                borderWidth: 1,
-                borderColor: '#D2B48C',
-                borderRadius: 8,
-                width: '100%',
-                marginTop: 8,
-                backgroundColor: '#FFF8F0',
-                overflow: 'hidden'
-            }}>
-                <Picker
-                    selectedValue={tarifa}
-                    onValueChange={setTarifa}
-                    style={{ color: '#5E3A1C' }}
-                    dropdownIconColor="#5E3A1C"
-                    mode="dropdown"
+        <KeyboardAvoidingView
+            style={{ flex: 1 }}
+            behavior={Platform.OS === "ios" ? "padding" : "height"}
+        >
+            <ScrollView
+                contentContainerStyle={styles.container}
+                keyboardShouldPersistTaps="handled"
+            >
+                {/* 🔙 Flecha para regresar a Login */}
+                <TouchableOpacity
+                    onPress={() => navigation.navigate('Login')}
+                    style={{ alignSelf: 'flex-start', marginBottom: 10 }}
                 >
-                    {tarifasDisponibles.map((item) => (
-                        <Picker.Item
-                            key={item}
-                            label={`Tarifa ${item}`}
-                            value={item}
-                        />
-                    ))}
-                </Picker>
-            </View>
+                    <Text style={{ fontSize: 18, color: '#A47148' }}>← Regresar</Text>
+                </TouchableOpacity>
 
-            <View style={styles.buttonContainer}>
-                {loading ? (
-                    <ActivityIndicator size="large" color="#A47148" />
-                ) : (
-                    <Button
-                        title="Registrar"
-                        onPress={handleRegister}
-                        color="#A47148"
-                    />
-                )}
-            </View>
-        </ScrollView>
+                <Text style={styles.title}>Registro</Text>
+
+                <TextInput
+                    style={styles.input}
+                    placeholder="Nombre"
+                    value={nombre}
+                    onChangeText={setNombre}
+                    placeholderTextColor="#8B5E3C"
+                />
+                <TextInput
+                    style={styles.input}
+                    placeholder="Apellido Paterno"
+                    value={apellidoP}
+                    onChangeText={setApellidoP}
+                    placeholderTextColor="#8B5E3C"
+                />
+                <TextInput
+                    style={styles.input}
+                    placeholder="Apellido Materno"
+                    value={apellidoM}
+                    onChangeText={setApellidoM}
+                    placeholderTextColor="#8B5E3C"
+                />
+                <TextInput
+                    style={styles.input}
+                    placeholder="Usuario"
+                    value={usuario}
+                    onChangeText={setUsuario}
+                    placeholderTextColor="#8B5E3C"
+                />
+                <TextInput
+                    style={styles.input}
+                    placeholder="Contraseña"
+                    secureTextEntry
+                    value={password}
+                    onChangeText={setPassword}
+                    placeholderTextColor="#8B5E3C"
+                />
+                <TextInput
+                    style={styles.input}
+                    placeholder="Correo"
+                    keyboardType="email-address"
+                    value={correo}
+                    onChangeText={setCorreo}
+                    placeholderTextColor="#8B5E3C"
+                />
+                <TextInput
+                    style={styles.input}
+                    placeholder="Teléfono"
+                    keyboardType="phone-pad"
+                    value={telefono}
+                    onChangeText={setTelefono}
+                    placeholderTextColor="#8B5E3C"
+                />
+                <TextInput
+                    style={styles.input}
+                    placeholder="Dirección"
+                    value={direccion}
+                    onChangeText={setDireccion}
+                    placeholderTextColor="#8B5E3C"
+                />
+                <TextInput
+                    style={styles.input}
+                    placeholder="Código Postal"
+                    keyboardType="numeric"
+                    value={codigoPostal}
+                    onChangeText={setCodigoPostal}
+                    placeholderTextColor="#8B5E3C"
+                />
+
+                <Text style={{ fontWeight: 'bold', marginTop: 15 }}>Tarifa Eléctrica</Text>
+                <View
+                    style={{
+                        borderWidth: 1,
+                        borderColor: '#D2B48C',
+                        borderRadius: 8,
+                        width: '100%',
+                        marginTop: 8,
+                        backgroundColor: '#FFF8F0',
+                        overflow: 'hidden'
+                    }}
+                >
+                    <Picker
+                        selectedValue={tarifa}
+                        onValueChange={setTarifa}
+                        style={{ color: '#5E3A1C' }}
+                        dropdownIconColor="#5E3A1C"
+                        mode="dropdown"
+                    >
+                        {tarifasDisponibles.map((item) => (
+                            <Picker.Item
+                                key={item}
+                                label={`Tarifa ${item}`}
+                                value={item}
+                            />
+                        ))}
+                    </Picker>
+                </View>
+
+                <View style={styles.buttonContainer}>
+                    {loading ? (
+                        <ActivityIndicator size="large" color="#A47148" />
+                    ) : (
+                        <Button
+                            title="Registrar"
+                            onPress={handleRegister}
+                            color="#A47148"
+                        />
+                    )}
+                </View>
+            </ScrollView>
+        </KeyboardAvoidingView>
     );
 }

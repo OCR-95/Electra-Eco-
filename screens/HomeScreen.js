@@ -94,7 +94,8 @@ export default function HomeScreen() {
 
         try {
             //const response = await fetch('http://192.168.100.3:8080/eco/index.php', {
-            const response = await fetch('http://192.168.1.22:8080/eco/index.php', {
+            ///const response = await fetch('http://192.168.1.22:8080/eco/index.php', {
+            const response = await fetch(`${API_URL}/eco/index.php`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({

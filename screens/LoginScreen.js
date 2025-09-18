@@ -12,6 +12,8 @@ import {
 import { styles } from '../styles/globalStyles';
 import { AuthContext } from '../context/AuthContext';
 import { CommonActions } from '@react-navigation/native';
+import { API_URL } from "../config/constants"; // ajusta la ruta según tu estructura
+
 
 export default function LoginScreen({ navigation }) {
     const [usu, setUsu] = useState('');
@@ -24,12 +26,13 @@ export default function LoginScreen({ navigation }) {
             Alert.alert('Validación', 'Usuario y contraseña son obligatorios');
             return;
         }
-        
+
         setLoading(true);
 
         try {
             //const response = await fetch('http://192.168.100.3:8080/eco/index.php', {
-            const response = await fetch('http://192.168.1.22:8080/eco/index.php', {
+            //const response = await fetch('http://192.168.100.3:8080/eco/index.php', {
+            const response = await fetch(`${API_URL}/eco/index.php`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -40,7 +43,7 @@ export default function LoginScreen({ navigation }) {
             });
 
             const data = await response.json();
-            
+
 
             if (data.status === 'success') {
                 const success = await login(data.user);
@@ -77,7 +80,7 @@ export default function LoginScreen({ navigation }) {
                 keyboardType="usu-address"
             /> */}
 
-                       <TextInput
+            <TextInput
                 style={styles.input}
                 placeholder="Usuario"
                 value={usu}
